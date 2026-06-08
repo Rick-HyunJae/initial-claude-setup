@@ -1,0 +1,5 @@
+# macOS
+.DS_Store
+
+# Claude Code local-only settings (machine-specific paths & permissions)
+.claude/settings.local.json
