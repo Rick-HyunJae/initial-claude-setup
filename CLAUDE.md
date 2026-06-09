@@ -28,6 +28,12 @@ Superpowers 산출물 경로 규칙: `.claude/rules/superpowers.md`
 
 상세 라우팅·워크플로·메모리 관리 규칙: `.claude/rules/code-graph.md`
 
+## Browser Automation (agent-browser × playwright)
+
+브라우저 자동화는 **agent-browser**(폭·컨텍스트 효율·영속)와 **playwright**(네트워크/콘솔/JS 평가 심층 계측)를 라우팅 규칙에 따라 분업한다. 겹치면 agent-browser, 계측이 필요하면 playwright.
+
+상세 라우팅·진입 경계·안티패턴: `.claude/rules/browser-automation.md`
+
 ## Workflow & Documents
 
 작업은 다음 단계를 따라 진행되며, 각 단계의 산출물은 지정된 경로에 누적된다.
